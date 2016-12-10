@@ -44,4 +44,5 @@ h2 {
 a {
   text-decoration: none;
   color: #333;
+  border-bottom: 1px solid #FD6C6C;
 }
