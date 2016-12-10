@@ -1,2 +1,2 @@
 # playground
-simple html/css/js playground on the web
+realtime html/css/js editor
