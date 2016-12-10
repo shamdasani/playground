@@ -7,8 +7,15 @@ textarea {
   display: inline-block;
   background: #F4F4F9;
   outline: none;
-
+  font-family: Courier, sans-serif;
+  font-size: 14px;
 }
+
+@media (max-width:650px){
+        textarea { 
+          width: 100%;    
+        }
+      }
 
 iframe {
   bottom: 0;
@@ -17,3 +24,24 @@ iframe {
   height: 35em;
 }
 
+h1, h2 {
+  text-align: center;
+  font-family: Avenir Next, sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 2px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
