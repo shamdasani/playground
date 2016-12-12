@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 textarea {
   width: 32%;
   float: top;
@@ -25,7 +29,6 @@ iframe {
 }
 
 h1, h2 {
-  text-align: center;
   font-family: Avenir Next, sans-serif;
   font-weight: 300;
 }
@@ -51,5 +54,19 @@ button {
   top: 50px;
   left: 3;
   position: absolute;
-  
+  width: 6em;
+  height: 2em;
+  border: none;
+  background: #FD6C6C;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+  display: inline;
+}
+
+button:hover {
+  color: #000;
+  border: 2px solid #FD6C6C;
+  background: #fff;
 }
