@@ -28,7 +28,7 @@ iframe {
   height: 35em;
 }
 
-h1, h2 {
+h1, h2, p {
   font-family: Avenir Next, sans-serif;
   font-weight: 300;
 }
@@ -50,6 +50,9 @@ a {
   border-bottom: 1px solid #FD6C6C;
 }
 
+a:hover {
+  font-style: italic;
+}
 button {
   top: 50px;
   left: 3;
