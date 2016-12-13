@@ -55,10 +55,10 @@ a:hover {
 }
 button {
   top: 50px;
-  left: 3;
-  position: absolute;
+  right: 45px;
+  position: fixed;
   width: 6em;
-  height: 2em;
+  height: 4em;
   border: none;
   background: #FD6C6C;
   color: #fff;
